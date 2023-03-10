@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cs_skillfactory_module4_tasks", "Cs_skillfactory_module4_tasks\Cs_skillfactory_module4_tasks.csproj", "{01FD9A13-F00E-4638-8E75-32D00E5F76B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cs_skillfactory_module4_tasks", "Cs_skillfactory_module4_tasks\Cs_skillfactory_module4_tasks.csproj", "{01FD9A13-F00E-4638-8E75-32D00E5F76B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task4.3.12", "task4.3.12\task4.3.12.csproj", "{EBF36A83-D870-4C37-873D-BC30B5B120BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{01FD9A13-F00E-4638-8E75-32D00E5F76B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01FD9A13-F00E-4638-8E75-32D00E5F76B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01FD9A13-F00E-4638-8E75-32D00E5F76B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF36A83-D870-4C37-873D-BC30B5B120BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF36A83-D870-4C37-873D-BC30B5B120BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF36A83-D870-4C37-873D-BC30B5B120BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF36A83-D870-4C37-873D-BC30B5B120BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
