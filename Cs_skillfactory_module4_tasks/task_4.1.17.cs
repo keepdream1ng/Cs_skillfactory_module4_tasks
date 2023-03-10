@@ -10,47 +10,24 @@
             {
                 Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы (stop для остановки)\nWrite your favorite colour in lower case (stop to exit)");
 
-                var color = Console.ReadLine();
+                //task wants me to do a lot of cases, but i want to try and write a shorter version of that code, since we have a user imput
+
+                var text = Console.ReadLine();
+                ConsoleColor choosedColor;
 
                 //check if user wants to stop the programm
-                if (color == "stop")
+                if (!ConsoleColor.TryParse(text, out choosedColor))
                 {
-                    Console.WriteLine("Цикл остановлен \nCycle stopped");
+                    Console.WriteLine("Выход\nExit");
                     break;
                 }
-                switch (color)
-                {
+                
+                Console.ForegroundColor = ConsoleColor.Black;
+                Console.BackgroundColor = choosedColor;
+                Console.WriteLine($"Your color is {text}!");
 
-                    case "red":
-                        Console.BackgroundColor = ConsoleColor.Red;
-                        Console.ForegroundColor = ConsoleColor.Black;
-
-                        Console.WriteLine("Your color is red!");
-                        break;
-
-                    case "green":
-                        Console.BackgroundColor = ConsoleColor.Green;
-                        Console.ForegroundColor = ConsoleColor.Black;
-
-                        Console.WriteLine("Your color is green!");
-                        break;
-
-                    case "cyan":
-                        Console.BackgroundColor = ConsoleColor.Cyan;
-                        Console.ForegroundColor = ConsoleColor.Black;
-
-                        Console.WriteLine("Your color is cyan!");
-                        break;
-
-                    default:
-                        Console.BackgroundColor = ConsoleColor.Yellow;
-                        Console.ForegroundColor = ConsoleColor.Red;
-
-                        Console.WriteLine("Error");
-                        break;
-                }
-                Console.ReadKey();
             }
+            Console.ReadKey();
         }
     }
 
