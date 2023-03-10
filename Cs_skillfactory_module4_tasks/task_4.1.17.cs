@@ -6,7 +6,7 @@
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
+            Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы \nWrite your favorite colour in lower case");
 
             var color = Console.ReadLine();
             switch (color)
@@ -25,11 +25,19 @@
 
                     Console.WriteLine("Your color is green!");
                 break;
-                default: 
+
+                case "Cyan":
                     Console.BackgroundColor = ConsoleColor.Cyan;
                     Console.ForegroundColor = ConsoleColor.Black;
 
                     Console.WriteLine("Your color is cyan!");
+                break;
+
+                default: 
+                    Console.BackgroundColor = ConsoleColor.Yellow;
+                    Console.ForegroundColor = ConsoleColor.Red;
+
+                    Console.WriteLine("Error");
                 break;
             }
             Console.ReadKey();
