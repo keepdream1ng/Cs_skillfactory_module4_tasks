@@ -5,15 +5,17 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cs_skillfactory_module4_tasks", "Cs_skillfactory_module4_tasks\Cs_skillfactory_module4_tasks.csproj", "{01FD9A13-F00E-4638-8E75-32D00E5F76B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task4.3.12", "task4.3.12\task4.3.12.csproj", "{EBF36A83-D870-4C37-873D-BC30B5B120BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task4.3.12", "task4.3.12\task4.3.12.csproj", "{EBF36A83-D870-4C37-873D-BC30B5B120BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task4.3.13", "task4.3.13\task4.3.13.csproj", "{1ADC2E39-2EA0-4104-ADEF-E650284C87A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task4.3.13", "task4.3.13\task4.3.13.csproj", "{1ADC2E39-2EA0-4104-ADEF-E650284C87A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task4.3.15", "task4.3.15\task4.3.15.csproj", "{464F298E-8E1C-42D8-98FB-EC419D8FD264}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task4.3.15", "task4.3.15\task4.3.15.csproj", "{464F298E-8E1C-42D8-98FB-EC419D8FD264}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task4.3.16", "task4.3.16\task4.3.16.csproj", "{E0412D05-BEF6-4776-9AFD-D47E88252B07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task4.3.16", "task4.3.16\task4.3.16.csproj", "{E0412D05-BEF6-4776-9AFD-D47E88252B07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task4.3.17", "task4.3.17\task4.3.17.csproj", "{D0EC5DAE-9DD8-4338-88CA-64EB597B54A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task4.3.17", "task4.3.17\task4.3.17.csproj", "{D0EC5DAE-9DD8-4338-88CA-64EB597B54A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task4.4.2", "task4.4.2\task4.4.2.csproj", "{AD00ED60-955A-46F4-B9AE-A771FBFEE103}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D0EC5DAE-9DD8-4338-88CA-64EB597B54A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0EC5DAE-9DD8-4338-88CA-64EB597B54A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0EC5DAE-9DD8-4338-88CA-64EB597B54A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD00ED60-955A-46F4-B9AE-A771FBFEE103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD00ED60-955A-46F4-B9AE-A771FBFEE103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD00ED60-955A-46F4-B9AE-A771FBFEE103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD00ED60-955A-46F4-B9AE-A771FBFEE103}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
