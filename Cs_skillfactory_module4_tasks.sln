@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cs_skillfactory_module4_tas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task4.3.12", "task4.3.12\task4.3.12.csproj", "{EBF36A83-D870-4C37-873D-BC30B5B120BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task4.3.13", "task4.3.13\task4.3.13.csproj", "{1ADC2E39-2EA0-4104-ADEF-E650284C87A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EBF36A83-D870-4C37-873D-BC30B5B120BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBF36A83-D870-4C37-873D-BC30B5B120BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBF36A83-D870-4C37-873D-BC30B5B120BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ADC2E39-2EA0-4104-ADEF-E650284C87A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ADC2E39-2EA0-4104-ADEF-E650284C87A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ADC2E39-2EA0-4104-ADEF-E650284C87A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ADC2E39-2EA0-4104-ADEF-E650284C87A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
