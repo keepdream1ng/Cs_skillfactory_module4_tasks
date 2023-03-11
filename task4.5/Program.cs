@@ -22,6 +22,7 @@
                 User.HasPet = Console.ReadLine() == "Да" ? true : false;
 
                 Console.WriteLine("Введите возраст пользователя");
+                // Next part will help with typing random stuff without crashing.
                 double.TryParse(Console.ReadLine(), out User.Age);
 
                 User.favcolors = new string[3];
