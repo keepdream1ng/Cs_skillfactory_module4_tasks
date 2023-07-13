@@ -8,7 +8,7 @@
             {
                 (string Name, string LastName, string Login, int LoginLength, bool HasPet, string[] favcolors, double Age) User;
 
-                Console.WriteLine("Введите имя");
+                Console.WriteLine("Введите, пожалуйста, имя");
                 User.Name = Console.ReadLine();
 
                 Console.WriteLine("Введите, пожалуйста, фамилию");
